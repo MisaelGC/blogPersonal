@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Misael Garcia | Responsive Website Design</title>
+    <link rel="stylesheet" href="/assets/css/estilo.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="#" class="logo">Portafolio</a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Inicio</a></li>
+        <li><a href="#about" onclick="toggleMenu();">Sobre mi</a></li>
+        <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Trabajos</a></li>
+        <!-- <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li> -->
+        <li><a href="#contact" onclick="toggleMenu();">Contacto</a></li>
+      </ul>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner" id="home">
+      <div class="textBx">
+        <h2>
+          Hola, Soy <br />
+          <span>Misael Garcia</span>
+        </h2>
+        <h3>Y soy Desarrollador Front End Web.</h3>
+        <a href="#about" class="btn">Sobre mi</a>
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section class="about" id="about">
+      <div class="heading">
+        <h2>Sobre mi</h2>
+      </div>
+
+      <div class="content">
+        <div class="contentBx w50">
+          <h3>Soy Desarrollador Front End Web</h3>
+          <p>
+            Mi nombre es Misael Garcia, estudie Ingeniería en Sistemas
+            Computacionales, tengo un posgrado en Sistemas de la Información,
+            tengo 26 años y soy originario de la Ciudad de México. <br>
+            Actualmente estoy estudiando mas tecnologías como TypeScript, Angular y React para mejorar en Front End. <br>
+            Algunos de mis pasatiempos son: Escuchar música, realizar viajes a bordo de mi moto y ser fanatico de la lucha libre. <br>
+            <h3>¡LOS RUDOS, LOS RUDOS, LOS RUDOS!</h3>
+          </p>
+        </div>
+
+        <div class="w50">
+          <img src="/assets/img/img1.jpg" alt="img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <div class="heading white">
+        <h2>Skills</h2>
+        <p>Aquí puedes saber un poco más de mis carrera profesional</p>
+      </div>
+
+      <div class="content">
+        <div class="skillsBx">
+          <img src="/assets/img/icon1.png" />
+          <h2>Web Desing</h2>
+          <p>
+            Realizo maquetaciones de sitios Web, conforme se me solicita, utilizo tecnologías en estos como Bootstrap, CSS Grid, Flexbox o SASS. 
+          </p>
+        </div>
+
+        <div class="skillsBx">
+          <img src="/assets/img/icon2.png" />
+          <h2>Responsive Web Design</h2>
+          <p>
+            Manejo el Responsive dependiendo las distintas pantallas, desde un la resolución de una Movil, hasta la de un Televisor.
+          </p>
+        </div>
+
+        <div class="skillsBx">
+          <img src="/assets/img/icon3.png" />
+          <h2>Mobile First</h2>
+          <p>
+            Manejo las resoluciones desprendiendo desde un movil de 460x768 para la comodidad del usuario pasando por las tabletas y monitores medianos. 
+          </p>
+        </div>
+
+        <div class="skillsBx">
+          <img src="/assets/img/icon4.png" />
+          <h2>Soft Skills</h2>
+          <p>
+           Mis Soft Skills en los cuales sigo aprendiendo son Angular, TypeScript, React, NodeJS y Mongo. <br>
+           Tambien tengo conocimiento en SQL y Git con GitHub.
+          </p>
+        </div>
+
+        <div class="skillsBx">
+          <img src="/assets/img/icon5.png" />
+          <h2>Ubuntu</h2>
+          <p>
+            Mi Sistema Operativo Favorito por excelencia es Ubuntu, ya que lo he podido adaptar a mi gusto. <br>
+            ¡Él es mi amigo fiel!
+          </p>
+        </div>
+
+        <div class="skillsBx">
+          <img src="/assets/img/icon6.png" />
+          <h2>Planeación</h2>
+          <p>
+            La planeación sin duda alguna es primordial, ya que con esto cada proyecto en el que estado ha llegado con éxito en tiempo y forma.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trabajos -->
+    <section class="work" id="work">
+      <div class="heading">
+        <h2>Trabajos y Proyectos Destacables</h2>
+        <p>Estos son algunos de los proyectos tanto personales, como laborales en los caules he participado.</p>
+      </div>
+
+      <div class="content">
+        <div class="workBx">
+          <img src="assets/img/producto1.jpg" />
+          <a href="https://misaelgc.github.io/efectosJavaScript/" target="blank"
+            ><p class="info">Sitio con efectos solo con JS</p></a
+          >
+        </div>
+
+        <div class="workBx">
+          <img src="assets/img/producto2.jpg" />
+          <a href="https://misaelgc.github.io/LibreriasPlugins/" target="blank"
+            ><p class="info">Sitio de plugins y librerias de JS</p></a
+          >
+        </div>
+
+        <div class="workBx">
+          <img src="assets/img/producto3.jpg" />
+          <a href="https://misaelgc.github.io/BienesRaices/" target="blank"
+            ><p class="info">Maquetado Responsive con html y css</p></a
+          >
+        </div>
+
+        <div class="workBx">
+          <img src="assets/img/producto4.jpg" />
+          <a href="https://misaelgc.github.io/blogCafe/" target="blank"
+            ><p class="info">Maquetado Responsive con plugins</p></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial
+    <section class="testimonial" id="testimonial">
+      <div class="heading">
+        <h2>Testimonial</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et placeat
+          voluptatibus, beatae error harum adipisci culpa quidem dignissimos
+          ducimus labore? Voluptate neque amet totam aliquam pariatur? Nobis
+          accusantium aspernatur inventore.
+        </p>
+      </div>
+      <div class="content">
+        <div class="testimonialBx">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, nobis
+            cum in ad, totam impedit deleniti cumque optio doloremque, rerum
+            suscipit consequatur culpa laudantium aliquid itaque magnam tempora.
+            Alias, sint.
+          </p>
+
+          <h3>
+            Algun Famoso <br />
+            <span>Diseñador Creativo</span>
+          </h3>
+        </div>
+
+        <div class="testimonialBx">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, nobis
+            cum in ad, totam impedit deleniti cumque optio doloremque, rerum
+            suscipit consequatur culpa laudantium aliquid itaque magnam tempora.
+            Alias, sint.
+          </p>
+          <h3>
+            Algun Famoso <br />
+            <span>Diseñador Creativo</span>
+          </h3>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Contact -->
+
+    <section class="contact" id="contact">
+      <div class="heading white">
+        <h2>Contacto</h2>
+        <p>Contactame para una cotización y con gusto te apoyare</p>
+      </div>
+
+      <div class="content">
+        <div class="contactInfo">
+          <h3>Información de Contacto</h3>
+          <div class="contactInfoBox">
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="text">
+                <h3>Dirección</h3>
+                <p>Nayarit 6, Aculco <br />Iztapalapa</p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="text">
+                <h3>Teléfono</h3>
+                <p>5564223418</p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-envelope-o"></i>
+              </div>
+              <div class="text">
+                <h3>Correo Electrónico</h3>
+                <p>gacrmu@hotmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="formBx">
+          <form>
+            <h3>Mensaje</h3>
+            <input type="text" placeholder="Nombre Completo" />
+            <input type="email" placeholder="Email" />
+            <textarea placeholder="Tu Mensaje, Por Favor"></textarea>
+            <input type="submit" value="Enviar" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="copyright">
+      <p>
+        Todos Los Derechos Reservados &copy;, Sitio Creado por Misael Garcia
+      </p>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
