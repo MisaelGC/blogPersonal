@@ -148,6 +148,20 @@ img {
   max-width: 100%;
 }
 
+.cv a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  background-color: #2196f3;
+  width: 30%;
+  padding: 10px 10px;
+}
+
+.cv a:hover {
+  cursor: pointer;
+  background: #c55f5f;
+}
+
 /* Skills */
 .skills {
   background: #111;
